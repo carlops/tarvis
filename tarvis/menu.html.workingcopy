@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>Untitled</title>
+<script type="text/javascript" src="../lib/dojo/dojo/dojo.js" data-dojo-config="'parseOnLoad':true,'async':true,'packages':[{'name':'gridx','location':'../gridx'},{'name':'clipart','location':'../../clipart'},{'name':'maqettaSamples','location':'../../../samples'},{'name':'maqetta','location':'../../maqetta'},{'name':'shapes','location':'../../shapes'},{'name':'zazl','location':'../../zazl'},{'name':'widgets','location':'../../custom'}],'themeMap':[['Android','',['../themes/android/android.css']],['BlackBerry','',['../themes/blackberry/blackberry.css']],['iPad','',['../themes/ipad/ipad.css']],['iPhone','',['../themes/iphone/iphone.css']],['.*','',['../themes/iphone/iphone.css']]],'mblThemeFiles':[],'mblLoadCompatPattern':''"></script>
+<script type="text/javascript">
+require([
+  "dijit/dijit",
+  "dojo/parser",
+  "maqetta/space",
+  "maqetta/AppStates"
+]);
+</script>
+<style>@import "../themes/claro/document.css";@import "../themes/claro/claro.css";@import "../app.css";
+</style>
+<script type="text/javascript" src="../app.js"></script>
+</head>
+<body data-maq-flow-layout="true" data-maq-comptype="mobile" class="claro" data-maq-ws="collapse" data-maq-appstates="{}" id="myapp">
+<div style="position: absolute; left: 11px; top: 13px; width: 367px; height: 226px;">
+  <div style="border: 2px solid; border-color: #2a3ab3; border-radius: 20px; position: absolute; z-index: 900; left: 0px; top: 0px; background-color: #558ed5; background-size: contain; width: 369px; height: 226px;">
+     <a style="position: absolute; left: 117px; top: 52px; width: 133px; height: 129px;">
+       <img src="../lib/custom/volante.png" style="position: absolute; z-index: 900; width: 59px; height: 58px; left: -73px; top: 0px;" onclick="location.href='volante.html'"></img>
+     </a>
+     <img src="../lib/custom/dinero.png" style="width: 59px; height: 58px; position: absolute; z-index: 900; left: 181.5px; top: 52px;" onclick="location.href='menu.html'"></img>
+     <img src="../lib/custom/menu_esquina.png" style="position: absolute; z-index: 900; width: 31px; height: 34px; left: 315px; top: 20px;" onclick="location.href='menu.html'"></img>
+     <img src="../lib/custom/todo.png" style="position: absolute; z-index: 900; width: 56px; height: 52px; left: 183px; top: 138.5px;" onclick="location.href='todo.html'"></img>
+     <img></img>
+     <img src="../lib/custom/favorito.png" style="width: 59px; position: absolute; z-index: 900; height: 55px; left: 284.5px; top: 135.5px;" onclick="location.href='menu.html'"></img>
+   </div>
+</div>
+<img src="../lib/custom/ci.png" style="width: 59px; height: 58px; position: absolute; z-index: 900; left: 57px; top: 154px;" onclick="location.href='menu.html'"></img>
+</body>
+</html>
